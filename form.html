@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        legend {
+            text-align: center;
+        }
+
+        form {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a> </li>
+                <li><a href="form.html" target="_blank">Form</a></li>
+                <li><a href="">About Us</a></li>
+
+            </ul>
+        </nav>
+        <h1>tunir ma pitha house</h1>
+    </header>
+
+    <form action="">
+        <p> Name:
+            <input type="text" name="" placeholder="Enter your name" id="">
+        </p>
+        <p> Email:
+            <input type="email" name="" placeholder="Enter your name" id="">
+        </p>
+        <p> Phone:
+            <input type="number" name="" placeholder="Enter your Email" id="">
+        </p>
+        <fieldset>
+            <legend>select your pitha</legend>
+            <p>
+                <label for="chitoi">
+                    <input type="radio" name="pitha" id="chitoi">chitoi
+                </label>
+            </p>
+            <p>
+                <label for="vaba">
+                    <input type="radio" name="pitha" id="vaba">vaba
+                </label>
+            </p>
+            <p>
+                <label for="kola">
+                    <input type="radio" name="pitha" id="kola">kola
+                </label>
+            </p>
+            <p>
+                <label for="dud pitha">
+                    <input type="radio" name="pitha" id="dud pitha">dud pitha
+                </label>
+            </p>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Select your borta</legend>
+            <p>
+                <label for="sorisa">
+                    <input type="checkbox" name="vorta" id="sorisa">sorisa</label>
+            </p>
+            <p>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">shutki<label>
+            </p>
+            <p>
+                <label for="morich">
+                    <input type="checkbox" name="vorta" id="morich">morich</label>
+            </p>
+        </fieldset>
+        <p>Spachial instraction</p>
+        <br>
+        <textarea name="instraction" id="" cols="30" rows="10"></textarea>
+
+        <select name="kawa" id="">
+            <option value="">name</option>
+            <option value="">fa</option>
+            <option value="">df</option>
+            <option value="">asdfe</option>
+        </select>
+
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
